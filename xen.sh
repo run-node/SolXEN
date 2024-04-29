@@ -52,6 +52,7 @@ create_default_cargo_project() {
     cargo new my_project
     echo "需要手动修改Cargo.toml 文件中添加 Solana 客户端和 SDK 的依赖。"
     echo "需要手动修改Rust 代码到项目的 src/main.rs 文件中。"
+    echo "文件代码链接https://gist.github.com/jacklevin74/b3b3709aa3e66eab8f762c0fb4de53ff"
     read -p "按回车键返回菜单..." enter_key
     create_cargo_project
 }
@@ -103,7 +104,8 @@ update_packages() {
 # 主菜单函数
 main_menu() {
     clear
-    echo "请输入要执行的功能(1~8):"
+    echo "======= Mr.Huang ======="
+    echo "========= 菜单 ========="
     echo "1. 安装环境"
     echo "2. 创建 Cargo 项目"
     echo "3. 构建程序"
